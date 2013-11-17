@@ -1,7 +1,7 @@
 {
-  "name": "wendigo",
+  "name": "yeti-wendigo",
   "version": "0.0.0",
-  "description": "auth gateway yeti",
+  "description": "yeti routes",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -14,9 +14,8 @@
     "url": "git://github.com/jarofghosts/wendigo.git"
   },
   "keywords": [
-    "auth",
-    "gateway",
-    "yeti"
+    "yeti",
+    "routing"
   ],
   "author": "jesse keane",
   "license": "MIT",
