@@ -21,5 +21,9 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/jarofghosts/wendigo/issues"
+  },
+  "dependencies": {
+    "route-emitter": "0.0.5",
+    "hyperquest": "~0.1.8"
   }
 }
