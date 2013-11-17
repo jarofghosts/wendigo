@@ -23,7 +23,7 @@
     "url": "https://github.com/jarofghosts/wendigo/issues"
   },
   "dependencies": {
-    "route-emitter": "0.0.5",
+    "route-emitter": "1.0.0",
     "hyperquest": "~0.1.8"
   }
 }
