@@ -9,17 +9,17 @@ var http = require('http'),
 
 router.listen('*', 'docs', function (req, res) {
   var method = req.method.toLowerCase()
-  req.pipe(request[method](bigfoot)).pipe(request[method](sasquatch))
+  req.pipe(request[method](bigfoot)).pipe(request[method](sasquatch)).pipe(res)
 })
 
 router.listen('*', 'users', function (req, res) {
   var method = req.method.toLowerCase()
-  req.pipe(request[method](bigfoot)).pipe(request[method](yeren))
+  req.pipe(request[method](bigfoot)).pipe(request[method](yeren)).pipe(res)
 })
 
 router.listen('*', 'stats', function (req, res) {
   var method = req.method.toLowerCase()
-  req.pipe(request[method](bigfoot)).pipe(request[method](yowie))
+  req.pipe(request[method](bigfoot)).pipe(request[method](yowie)).pipe(res)
 })
 
 http.createServer(router.route).listen(port)
